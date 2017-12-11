@@ -4,6 +4,7 @@ var express       = require('express')
 var bodyParser    = require('body-parser')
 var sessions      = require('express-session')
 var compression   = require('compression')
+require('dotenv').load()
 
 /* check if the application runs on heroku */
 var util
